@@ -3,8 +3,8 @@
     height: 200px;
     display: flex;
     flex-wrap: wrap;
-    border-style: solid;
-    background-color: white;
+    border: solid 7px white;
+    background-color: black;
 }
 
 .grid div {
@@ -18,7 +18,7 @@
 }
 
 .apple {
-    background-color: purple;
+    background-color: red;
 }
 
 .start {
@@ -27,8 +27,8 @@
     border: none;
     padding: 20px 30px;
     border-radius: 5px;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     color: white;
     letter-spacing: 1.5px;
     font-size: 20px;
@@ -44,12 +44,12 @@
 
 .score {
     margin-left: -130px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     color: white;
     letter-spacing: 1.5px;
     font-size: 20px;
 }
 
 body {
-    background-color: rgb(35 98 98);
+    background-color: black;
 }
